@@ -2,8 +2,8 @@ import pandas as pd
 import streamlit as st
 
 st.title("Drug Safety Dashboard")
-st.caption("Demo dashboard structure for public FDA FAERS adverse event profiles.")
-matrix = pd.read_csv("data/faers_demo_matrix.csv", index_col=0)
-drug = st.selectbox("Drug", matrix.index)
-st.bar_chart(matrix.loc[drug])
-st.dataframe(matrix)
+st.caption("Public openFDA FAERS reaction counts for selected drugs. Counts are spontaneous reports, not incidence rates.")
+events = pd.read_csv("data/openfda_drug_event_counts.csv")
+drug = st.selectbox("Drug", sorted(events.drug.unique()))
+st.bar_chart(events[events.drug == drug].set_index("reaction_term")["report_count"].head(20))
+st.dataframe(events)

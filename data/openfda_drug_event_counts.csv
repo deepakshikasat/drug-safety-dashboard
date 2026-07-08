@@ -1,0 +1,121 @@
+drug,reaction_term,report_count
+acetaminophen,drug dependence,51167
+acetaminophen,overdose,44695
+acetaminophen,pain,42154
+acetaminophen,dependence,36997
+acetaminophen,death,29512
+acetaminophen,toxicity to various agents,27984
+acetaminophen,fatigue,27921
+acetaminophen,drug ineffective,27242
+acetaminophen,off label use,26402
+acetaminophen,nausea,26088
+acetaminophen,headache,22866
+acetaminophen,dyspnoea,19629
+acetaminophen,vomiting,19549
+acetaminophen,diarrhoea,19299
+acetaminophen,emotional distress,19038
+acetaminophen,completed suicide,19012
+acetaminophen,arthralgia,18387
+acetaminophen,pyrexia,16729
+acetaminophen,rash,15498
+acetaminophen,dizziness,14387
+ibuprofen,drug ineffective,16909
+ibuprofen,pain,15921
+ibuprofen,fatigue,15074
+ibuprofen,nausea,14240
+ibuprofen,headache,12777
+ibuprofen,arthralgia,11199
+ibuprofen,dyspnoea,11030
+ibuprofen,vomiting,10535
+ibuprofen,diarrhoea,10179
+ibuprofen,rash,9359
+ibuprofen,off label use,8723
+ibuprofen,dizziness,8721
+ibuprofen,pruritus,8225
+ibuprofen,pyrexia,8221
+ibuprofen,acute kidney injury,6797
+ibuprofen,asthenia,6746
+ibuprofen,drug hypersensitivity,6732
+ibuprofen,anxiety,6631
+ibuprofen,joint swelling,6399
+ibuprofen,malaise,6317
+metformin,nausea,29643
+metformin,diarrhoea,27400
+metformin,blood glucose increased,26998
+metformin,drug ineffective,22106
+metformin,fatigue,20953
+metformin,lactic acidosis,19534
+metformin,vomiting,19170
+metformin,acute kidney injury,17885
+metformin,weight decreased,17105
+metformin,dyspnoea,16479
+metformin,dizziness,15448
+metformin,off label use,14919
+metformin,headache,14824
+metformin,pain,13876
+metformin,asthenia,13145
+metformin,malaise,12579
+metformin,decreased appetite,11736
+metformin,fall,11351
+metformin,arthralgia,10424
+metformin,death,9100
+warfarin,international normalised ratio increased,11106
+warfarin,dyspnoea,8852
+warfarin,drug interaction,6723
+warfarin,fatigue,6437
+warfarin,diarrhoea,6310
+warfarin,nausea,6254
+warfarin,dizziness,5448
+warfarin,drug ineffective,5360
+warfarin,fall,5103
+warfarin,death,4935
+warfarin,headache,4885
+warfarin,asthenia,4604
+warfarin,pneumonia,4455
+warfarin,haemorrhage,4293
+warfarin,anaemia,4287
+warfarin,off label use,4056
+warfarin,vomiting,3870
+warfarin,pain,3861
+warfarin,malaise,3837
+warfarin,hypotension,3788
+adalimumab,drug ineffective,10152
+adalimumab,off label use,7966
+adalimumab,rheumatoid arthritis,5494
+adalimumab,pain,5295
+adalimumab,fatigue,5290
+adalimumab,arthralgia,5019
+adalimumab,rash,4502
+adalimumab,condition aggravated,4314
+adalimumab,drug intolerance,4158
+adalimumab,systemic lupus erythematosus,4007
+adalimumab,nausea,3937
+adalimumab,joint swelling,3929
+adalimumab,headache,3910
+adalimumab,diarrhoea,3886
+adalimumab,alopecia,3789
+adalimumab,treatment failure,3754
+adalimumab,synovitis,3752
+adalimumab,abdominal discomfort,3737
+adalimumab,psoriatic arthropathy,3636
+adalimumab,arthropathy,3567
+atorvastatin,fatigue,19634
+atorvastatin,diarrhoea,17630
+atorvastatin,dyspnoea,16435
+atorvastatin,nausea,16407
+atorvastatin,drug ineffective,15257
+atorvastatin,dizziness,13555
+atorvastatin,off label use,13149
+atorvastatin,headache,12084
+atorvastatin,fall,11133
+atorvastatin,asthenia,11088
+atorvastatin,acute kidney injury,11065
+atorvastatin,pain,11011
+atorvastatin,death,10202
+atorvastatin,vomiting,10017
+atorvastatin,arthralgia,9969
+atorvastatin,malaise,9514
+atorvastatin,myalgia,9448
+atorvastatin,drug interaction,8317
+atorvastatin,weight decreased,7973
+atorvastatin,pneumonia,7971

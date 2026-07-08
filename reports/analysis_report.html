@@ -1,34 +1,17 @@
 <!doctype html>
-    <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Interactive Drug Safety Explorer - Analysis Report</title>
-      <style>
-        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.55; color: #17202a; max-width: 980px; }
-        h1 { margin-bottom: 0; }
-        .subtitle { color: #5d6d7e; margin-top: 6px; }
-        section { border-top: 1px solid #d8dee4; padding-top: 18px; margin-top: 24px; }
-        code { background: #f6f8fa; padding: 2px 5px; border-radius: 4px; }
-        figure { margin: 24px 0; }
-        img { max-width: 100%; border: 1px solid #d8dee4; }
-        figcaption { color: #5d6d7e; font-size: 0.92rem; margin-top: 6px; }
-      </style>
-    </head>
-    <body>
-      <h1>Interactive Drug Safety Explorer</h1>
-      <p class="subtitle">Bench to Bytes portfolio analysis report. Uses only public or synthetic data.</p>
-      <section><h2>Hypothesis</h2><p>Public adverse-event reports can be organized into interpretable profiles that help compare drug safety patterns.</p></section>
-      <section><h2>Data</h2><p>Demo adverse-event matrix inspired by public FDA FAERS/openFDA drug event fields; the Streamlit scaffold is ready for live API integration.</p></section>
-      <section><h2>Process</h2><ol><li>Created a drug-by-event frequency matrix.</li>
-<li>Summed events across drugs to identify high-frequency adverse event terms.</li>
-<li>Built a Streamlit app for drug-level profile review.</li>
-<li>Generated a labelled bar chart of top adverse events.</li></ol></section>
-      <section><h2>Outputs</h2><ul><li><code>data/faers_demo_matrix.csv</code></li>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Interactive Drug Safety Explorer - Analysis Report</title>
+<style>body{font-family:Arial,sans-serif;margin:40px;line-height:1.55;color:#17202a;max-width:980px}.subtitle{color:#5d6d7e}section{border-top:1px solid #d8dee4;padding-top:18px;margin-top:24px}code{background:#f6f8fa;padding:2px 5px;border-radius:4px}img{max-width:100%;border:1px solid #d8dee4}figcaption{color:#5d6d7e;font-size:.92rem}</style></head>
+<body><h1>Interactive Drug Safety Explorer</h1><p class="subtitle">Bench to Bytes portfolio analysis report. Public data sources are named explicitly.</p>
+<section><h2>Hypothesis</h2><p>Public FAERS reaction counts can be normalized into searchable drug safety profiles, while preserving the warning that report counts are not incidence.</p></section>
+<section><h2>Data</h2><p>openFDA drug/event API, queried by medicinal product name for selected public drugs.</p></section>
+<section><h2>Process</h2><ol><li>Fetched top MedDRA reaction terms for each selected drug.</li>
+<li>Built a drug-by-event count matrix.</li>
+<li>Summarized top reaction terms and total reports.</li>
+<li>Updated the Streamlit app to browse real openFDA-derived counts.</li></ol></section>
+<section><h2>Outputs</h2><ul><li><code>data/openfda_drug_event_counts.csv</code></li>
+<li><code>data/openfda_event_matrix.csv</code></li>
 <li><code>outputs/top_adverse_events.csv</code></li>
-<li><code>figures/top_events.svg</code></li>
-<li><code>app.py</code></li></ul></section>
-      <section><h2>Interpretation</h2><p>The event profile emphasizes common reporting terms and demonstrates the product pattern: normalize public safety data into a form scientists can search, compare, and discuss.</p></section>
-      <section><h2>Figures</h2><figure><img src="../figures/top_events.svg" alt="figures/top_events.svg"><figcaption>figures/top_events.svg</figcaption></figure></section>
-    </body>
-    </html>
+<li><code>outputs/drug_report_totals.csv</code></li></ul></section>
+<section><h2>Interpretation</h2><p>This is now a real public-data product scaffold. The scientific caveat is central: FAERS data are useful for signal exploration, not direct causal or incidence claims.</p></section>
+<section><h2>Figures</h2><figure><img src="../figures/top_events.svg" alt="figures/top_events.svg"><figcaption>figures/top_events.svg</figcaption></figure></section></body></html>

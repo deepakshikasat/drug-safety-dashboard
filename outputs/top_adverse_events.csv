@@ -1,9 +1,16 @@
-,0
-nausea,281
-headache,156
-fatigue,152
-rash,145
-myalgia,138
-liver injury,129
-infection,119
-bleeding,115
+reaction_term,report_count
+drug ineffective,97026
+nausea,96569
+fatigue,95309
+pain,92118
+diarrhoea,84704
+off label use,75215
+dyspnoea,72425
+headache,71346
+vomiting,63141
+dizziness,57559
+arthralgia,54998
+death,53749
+drug dependence,51167
+overdose,44695
+dependence,36997
